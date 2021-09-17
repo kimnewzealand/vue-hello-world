@@ -1,4 +1,4 @@
-# ToDo list using vue-hello-world
+# Transl8r using vue-hello-world
 
 ## Project setup
 ```

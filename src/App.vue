@@ -1,14 +1,17 @@
 <template>
-  <HelloWorld msg="Welcome to your ToDo list using Vue.js"/>
+  <div id="app">
+    <h1>Welcome to your translator using Vue.js</h1>
+    <translate-form />
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import TranslateForm from './components/TranslateForm.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    TranslateForm
   }
 }
 </script>
