@@ -72,6 +72,7 @@ li {
 /* Target h1 in navbar and set font size, reduces font-weight, adds margin and line height */
 
 .navbar h1 {
+  color: white;
   font-size: 30px;
   font-weight: 300;
   margin: 10px 0;
@@ -83,4 +84,23 @@ li {
   justify-content: space-between;
   align-items: center;
   height: 100%;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+/* Changes the color of both links to white, adds padding between them and margin as well */
+
+.navbar a {
+  color: white;
+  padding: 9px;
+  margin: 0 10px;
+}
+
+/* Add a pseudo element on hover*/
+
+.navbar a:hover {
+  color: #0a0a0a;
+  border-bottom: 3px solid #0a0a0a;
 }
