@@ -121,7 +121,6 @@ li {
 }
 
 .grid {
-  overflow: visible;
   display: grid;
   grid-template-columns: 60% 40%;
 }
@@ -131,13 +130,18 @@ li {
   position: relative;
   top: 5px;
   background-color: rgb(116, 158, 236);
-  color: white
+  color: white;
+}
+.grid-item-1 {
+  margin: auto;
+  padding: 70px;
 }
 
 .showcase input {
-  padding: 10px 70px 10px 0;
+  padding: 10px 70px 10px 70px;
   font-size: 14px;
   border: none;
   border-radius: 6px;
   padding-left: 6px;
+  margin-bottom: 10px;
 }

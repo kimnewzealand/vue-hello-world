@@ -19,7 +19,7 @@
                   class="border w-full p-1"
                   />
                 </div>
-                <div>    
+                <div class="input-text">    
                   <label for="translate-form">You have entered {{input_text}}</label>
                 </div>
                  </div>
