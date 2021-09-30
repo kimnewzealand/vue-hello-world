@@ -1,16 +1,19 @@
 <template>
   <div id="app">
-    <translate-form />
+    <NavBar />
+    <TranslateForm />
   </div>
 </template>
 
 <script>
-import TranslateForm from './components/TranslateForm.vue';
+import TranslateForm from './components/TranslateForm.vue'
+import NavBar from './components/NavBar'
 
 export default {
   name: 'App',
   components: {
-    TranslateForm
+    TranslateForm,
+    NavBar
   }
 }
 </script>
