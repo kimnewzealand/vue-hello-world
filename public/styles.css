@@ -133,3 +133,11 @@ li {
   background-color: rgb(116, 158, 236);
   color: white
 }
+
+.showcase input {
+  padding: 10px 70px 10px 0;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  padding-left: 6px;
+}
