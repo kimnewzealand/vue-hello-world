@@ -104,3 +104,32 @@ li {
   color: #0a0a0a;
   border-bottom: 3px solid #0a0a0a;
 }
+
+/* Adds margin below the text */
+.showcase p {
+  margin-bottom: 30px;
+}
+
+/* Adds a shadow below the image */
+.showcase img {
+  box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.2);
+}
+
+/* Adds some padding on the form content */
+.showcase-form {
+  padding-left: 7px;
+}
+
+.grid {
+  overflow: visible;
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+
+.grid-item-1,
+.grid-item-2 {
+  position: relative;
+  top: 5px;
+  background-color: rgb(116, 158, 236);
+  color: white
+}
